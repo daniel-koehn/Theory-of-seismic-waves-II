@@ -2,8 +2,19 @@ function [ model ] = inp_model( )
 % INP_MODEL 
 % Define model parameters for 2D acoustic FDFD modelling
 % Model:
-% Marmousi-II model from 
+% Marmousi-II model by
+% Martin, G.S., Wiley, R. & Marfurt, K.J., 2006. Marmousi2 — an elastic
+% upgrade for Marmousi, Leading Edge, 25, 156–166.
 
+    % define model
+    % MODEL = 1 - read Vp model from IEEE binary file
+    % MODEL = 2 - define Vp model on-the-fly
+    model.MODEL = 1;
+    
+    % define acquisition geometry
+    % ACQ = 1 - define source and receiver positions in def_acq.m
+    % ACQ = 2 - read acquisition geometry from file
+    model.ACQ = 2;
 
     % number of gridpoint in x- and y-direction
     model.nx = 500;
@@ -41,7 +52,11 @@ function [ model ] = inp_model( )
     
     % define fonts
     model.FSize = 20;
-    model.Fweight = 'bold'; 
+    model.Fweight = 'normal'; 
+    
+    % define figure size;
+    model.screenx = 1000;
+    model.screeny = 750;
     
 end
 

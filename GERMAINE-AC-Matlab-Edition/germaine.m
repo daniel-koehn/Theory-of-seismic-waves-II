@@ -17,20 +17,10 @@ SOLVER = 3;
 % FD_SCHEME = 2 - 9-point mixed grid stencil with PMLs
 FD_SCHEME = 2;
 
-% define model
-% MODEL = 1 - read Vp model from IEEE binary file
-% MODEL = 2 - define Vp model on-the-fly
-MODEL = 2;
-
-% define acquisition geometry
-% ACQ = 1 - define source and receiver positions in def_acq.m
-% ACQ = 2 - read acquisition geometry from file
-ACQ = 1;
-
 % define input model parameters
 model = inp_model;
 
-if(MODEL==1)
+if(model.MODEL==1)
     % read Vp-model from file
     vp = readmod(model);
 else
@@ -39,12 +29,12 @@ else
 end
 
 % define source and receiver positions in def_acq.m
-if(ACQ==1)
+if(model.ACQ==1)
    acq = def_acq(model);
 end
 
 % read source and receiver positions from file
-if(ACQ==2)
+if(model.ACQ==2)
    acq = read_acq(model);
 end
 
@@ -103,14 +93,19 @@ toc;
 
 % reshape solution vector 
 ps = reshape(p,model.nx,model.ny);
-ps = fliplr(ps');
+ps = ps';
+%ps = fliplr(ps);
 
 % plot model and modelling results
+set(gcf,'position',[0 0, model.screenx model.screeny]);
+set(gcf,'PaperPositionMode','Auto');
 subplot(2,1,1)
 
 imagesc(model.x./1000.0,model.y./1000.0,vp);
 load 'util/seismic.map'
 colormap(seismic);
+cbar_handle=colorbar('EastOutside');
+set(get(cbar_handle,'ylabel'),'string','Vp [m/s]','fontsize',model.FSize,'FontWeight',model.Fweight);
 
 set(get(gca,'title'),'FontSize',model.FSize);
 set(get(gca,'title'),'FontWeight',model.Fweight);
@@ -137,6 +132,8 @@ imagesc(model.x./1000.0,model.y./1000.0,real(ps));
 caxis([-model.caxis1 model.caxis1]);
 load 'util/seismic.map'
 colormap(seismic);
+cbar_handle=colorbar('EastOutside');
+set(get(cbar_handle,'ylabel'),'string','Re(p)','fontsize',model.FSize,'FontWeight',model.Fweight);
 
 set(get(gca,'title'),'FontSize',model.FSize);
 set(get(gca,'title'),'FontWeight',model.Fweight);
@@ -159,5 +156,5 @@ title('Real part of pressure wavefield');
 set(gcf, 'PaperUnits', 'inches');
 set(gcf, 'PaperSize', [5 7]);
 
-set(gcf,'position',[0 0, 900 900]);
-set(gcf,'PaperPositionMode','Auto');
+imfile=['FDFD_wavefield.eps'];
+eval([['print -dpsc2 '] imfile]);
