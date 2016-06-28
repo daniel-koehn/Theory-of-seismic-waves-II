@@ -99,6 +99,7 @@ ps = ps';
 % plot model and modelling results
 set(gcf,'position',[0 0, model.screenx model.screeny]);
 set(gcf,'PaperPositionMode','Auto');
+
 subplot(2,1,1)
 
 imagesc(model.x./1000.0,model.y./1000.0,vp);
