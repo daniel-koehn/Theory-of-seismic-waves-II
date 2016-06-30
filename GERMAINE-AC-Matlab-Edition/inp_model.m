@@ -27,7 +27,7 @@ function [ model ] = inp_model( )
     model.y = model.dh.*(1:model.ny);
     
     % define modeling frequency [Hz]
-    model.f = 5.0;
+    model.f = 4.0;
     model.omega = 2.0*pi*model.f; 
     
     % define thickness of PML boundary frame [gridpoints]

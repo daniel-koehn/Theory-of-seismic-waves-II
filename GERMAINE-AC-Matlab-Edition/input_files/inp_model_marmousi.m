@@ -3,8 +3,8 @@ function [ model ] = inp_model( )
 % Define model parameters for 2D acoustic FDFD modelling
 % Model:
 % Marmousi-II model by
-% Martin, G.S., Wiley, R. & Marfurt, K.J., 2006. Marmousi2 — an elastic
-% upgrade for Marmousi, Leading Edge, 25, 156–166.
+% Martin, G.S., Wiley, R. & Marfurt, K.J., 2006. Marmousi2 ï¿½ an elastic
+% upgrade for Marmousi, Leading Edge, 25, 156ï¿½166.
 
     % define model
     % MODEL = 1 - read Vp model from IEEE binary file
@@ -34,11 +34,11 @@ function [ model ] = inp_model( )
     model.omega = 2.0*pi*model.f; 
     
     % define thickness of PML boundary frame [gridpoints]
-    model.npml = 10;
+    model.npml = 20;
     model.a0_pml = 1.79;
     
     % define free surface
-    model.free = 1;
+    model.free = 0;
     
     % basename of input model
     model.file_true = 'start/marmousi_II_marine';

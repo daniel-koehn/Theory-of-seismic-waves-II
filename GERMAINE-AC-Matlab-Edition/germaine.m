@@ -28,6 +28,10 @@ else
     vp = create_mod(model);
 end
 
+if(model.npml>0)
+    [vp,model] = extend_model(model,vp);
+end
+
 % define source and receiver positions in def_acq.m
 if(model.ACQ==1)
    acq = def_acq(model);
@@ -36,6 +40,12 @@ end
 % read source and receiver positions from file
 if(model.ACQ==2)
    acq = read_acq(model);
+
+   % shift acquisition geometry if model.npml > 0
+   if(model.npml>0)
+       acq = shift_acq(model,acq);
+   end
+
 end
 
 % ----------------------------------
@@ -94,6 +104,10 @@ toc;
 % reshape solution vector 
 ps = reshape(p,model.nx,model.ny);
 ps = ps';
+if(model.npml>0)
+    ps = extract_model(model,ps);
+    vp = extract_model(model,vp);
+end
 %ps = fliplr(ps);
 
 % plot model and modelling results

@@ -27,15 +27,19 @@ cp input_files/inp_model_marmousi.m inp_model.m
 ------------------------
 Description of functions
 ------------------------
-create_mod.m   - create P-wave velocity model on-the-fly 
+create_mod.m    - create P-wave velocity model on-the-fly 
 	         (requires to set model.MODEL=2 in inp_model.m)
 
-def_acq.m      - manually define acquisition geometry 
+def_acq.m       - manually define acquisition geometry 
 		 (requires to set model.ACQ=1 in inp_model.m)
 
-germaine.m     - main Matlab code for FDFD
+extend_model.m  - extend vp model by PML layers
 
-init_A_AC_5p.m - assemble and use impedance matrix for 5 point FD stencil 
+extract_model.m - extract original vp model and computed pressure wavefield from extended model
+
+germaine.m      - main Matlab code for FDFD
+
+init_A_AC_5p.m  - assemble and use impedance matrix for 5 point FD stencil 
 		 (requires to set FD_SCHEME=1 in germaine.m)
 
 init_A_AC_9p_mixed.m - assemble and use impedance matrix for 9 point mixed gridFD stencil with PMLs 
@@ -52,6 +56,8 @@ read_mod.m     - read P-wave velocity model from IEEE-le binary files
 		 (requires to set model.MODEL=1 in inp_model.m)
 
 RHS_AC.m       - assemble source vector RHS
+
+shift_acq.m    - shift discrete acquisition geometry by model.npml in x- and y-direction
 
 
 
