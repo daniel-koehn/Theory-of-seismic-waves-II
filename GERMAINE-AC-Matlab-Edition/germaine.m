@@ -17,6 +17,9 @@ SOLVER = 3;
 % FD_SCHEME = 2 - 9-point mixed grid stencil with PMLs
 FD_SCHEME = 2;
 
+% write real part of pressure wavefield to IEEE binar file
+WRITE_SNAP = 0;
+
 % define input model parameters
 model = inp_model;
 
@@ -173,3 +176,13 @@ set(gcf, 'PaperSize', [5 7]);
 
 imfile=['FDFD_wavefield.eps'];
 eval([['print -dpsc2 '] imfile]);
+
+% write wavefield to file
+if(WRITE_SNAP==1)
+  
+  file=['wavefield_hom_p.bin'];
+  fid=fopen(file,'w','ieee-le');
+  fwrite(fid,real(full(ps)),'float')
+  fclose(fid);
+   
+end
