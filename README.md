@@ -5,7 +5,7 @@ at the Institute of Geosciences (Department of Geophysics), Christian-Albrechts-
 This repository contains:
 - The 2D Frequency Domain Finite-Difference (FDFD) Matlab Code GERMAINE-AC-Matlab-Edition for the solution of the 2D Helmholtz equation using either a simple 5-point FD stencil or a 9-point mixed-grid FD stencil with PML absorbing boundary conditions according to Z. Chen, D. Cheng, W. Feng, H. Yang, 2013, An optimal 9-point finite difference scheme for the Helmholtz equation with PML, Int. J. Numer. Anal. Model., 10, 389-410. 
 - The 2D Time Domain Finite-Difference (FDFD) Matlab Code DENISE-AC-Matlab-Edition for the solution of the 2D Helmholtz equation using a simple 5-point FD stencil with simple FOR loops and sparse matrix-vector multiplication. 
-- The 2D Time Domain Finite-Difference (FDFD) Jupyter Notebooks DENISE-PSV-Python-Edition for the solution of the 2D PSV problem on a staggrered grid using a simple 2nd order FD scheme in space and time. Code performance is optimized using NUMBA.
+- The 2D Time Domain Finite-Difference (FDFD) Jupyter Notebooks DENISE-PSV-Python-Edition for the solution of the 2D PSV problem on a staggered grid using a simple 2nd order FD scheme in space and time. Code performance is optimized using NUMBA.
 
 Lectures are available at: http://www.geophysik.uni-kiel.de/%7Edkoehn/TEW2.htm
 
