@@ -1,0 +1,64 @@
+Quickstart to run GERMAINE-AC-Matlab-Edition
+
+(a) Homogeneous full-space model
+--------------------------------
+
+1. Open germaine.m in MATLAB
+
+2. Run the Matlab code to model the FD pressure wavefield 
+   for a homogeneous half-space model 
+
+(b) Marmousi-2 model
+--------------------------------
+
+1. Save inp_model.m, e.g. by 
+
+cp inp_model.m inp_model_hom.m
+
+2. Overwrite inp_model.m by the Marmousi-input file 
+
+cp input_files/inp_model_marmousi.m inp_model.m
+
+3. Open germaine.m in MATLAB
+
+4. Run the Matlab code to model the FD pressure wavefield 
+   for the Marmousi-2 model 
+
+------------------------
+Description of functions
+------------------------
+create_mod.m    - create P-wave velocity model on-the-fly 
+	         (requires to set model.MODEL=2 in inp_model.m)
+
+def_acq.m       - manually define acquisition geometry 
+		 (requires to set model.ACQ=1 in inp_model.m)
+
+extend_model.m  - extend vp model by PML layers
+
+extract_model.m - extract original vp model and computed pressure wavefield from extended model
+
+germaine.m      - main Matlab code for FDFD
+
+init_A_AC_5p.m  - assemble and use impedance matrix for 5 point FD stencil 
+		 (requires to set FD_SCHEME=1 in germaine.m)
+
+init_A_AC_9p_mixed.m - assemble and use impedance matrix for 9 point mixed gridFD stencil with PMLs 
+		       (requires to set FD_SCHEME=2 in germaine.m)
+
+inp_model.m    - definition of grid geometry and modelling parameters
+
+PML.m	       - definition of PML damping profiles for 9-point FD mixed grid stencil
+
+read_acq.m     - read acquisition geometry from source and receiver files in folders receiver/ and source/
+		 (requires to set model.ACQ=2 in inp_model.m)	
+
+read_mod.m     - read P-wave velocity model from IEEE-le binary files
+		 (requires to set model.MODEL=1 in inp_model.m)
+
+RHS_AC.m       - assemble source vector RHS
+
+shift_acq.m    - shift discrete acquisition geometry by model.npml in x- and y-direction
+
+
+
+    
