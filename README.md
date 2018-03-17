@@ -10,7 +10,7 @@ Some programming exercises using Jupyter Notebooks are from the "Seismo-Live" Ho
 
 [http://www.seismo-live.org/](http://www.seismo-live.org/)
 
-distributed under the terms of CC BY-NC-SA 4.0:
+distributed under the terms of CC BY-NC-SA 4.0 license:
 
 [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -19,7 +19,7 @@ This repository also contains:
 - The 2D Time Domain Finite-Difference (FDFD) Matlab Code DENISE-AC-Matlab-Edition for the solution of the 2D Helmholtz equation using a simple 5-point FD stencil with simple FOR loops and sparse matrix-vector multiplication. 
 - The 2D Time Domain Finite-Difference (FDFD) Jupyter Notebooks DENISE-PSV-Python-Edition for the solution of the 2D PSV problem on a staggered grid using a simple 2nd order FD scheme in space and time. Code performance is optimized using NUMBA.
 
-During the course of the lecture, I will add more Jupyter notebooks dealing with mesh generation, Love/Rayleigh wave propagation, FD modelling in spherical coordinates and SH wave propagation in visco-elastic and anisotropic media.
+During the course of the lecture, I will add more Jupyter notebooks dealing with mesh generation, Love/Rayleigh wave propagation, FD modelling in spherical coordinates and SH wave propagation in visco-elastic and anisotropic media, which will be also available under the terms of the CC BY-NC-SA 4.0 license.
 
 Daniel Koehn
 
