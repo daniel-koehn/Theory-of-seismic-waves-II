@@ -1,0 +1,149 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel='stylesheet' >
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i" rel='stylesheet' >
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400' rel='stylesheet' >
+<style>
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+
+#notebook_panel { /* main background */
+    background: rgb(245,245,245);
+}
+
+div.cell { /* set cell width */
+    width: 800px;
+}
+
+div #notebook { /* centre the content */
+    background: #fff; /* white background for content */
+    width: 1000px;
+    margin: auto;
+    padding-left: 0em;
+}
+
+#notebook li { /* More space between bullet points */
+margin-top:0.5em;
+}
+
+/* draw border around running cells */
+div.cell.border-box-sizing.code_cell.running { 
+    border: 1px solid #111;
+}
+
+/* Put a solid color box around each cell and its output, visually linking them*/
+div.cell.code_cell {
+    background-color: rgb(256,256,256); 
+    border-radius: 0px; 
+    padding: 0.5em;
+    margin-left:1em;
+    margin-top: 1em;
+}
+
+
+div.text_cell_render{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 140%;
+    font-size: 110%;
+    width:680px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Formatting for header cells */
+.text_cell_render h1 {
+    font-family: 'Merriweather', serif;
+    font-style:regular;
+    font-weight: bold;    
+    font-size: 250%;
+    line-height: 100%;
+    color: #004065;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    display: block;
+}	
+.text_cell_render h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: bold; 
+    font-size: 180%;
+    line-height: 100%;
+    color: #0096d6;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    display: block;
+}	
+
+.text_cell_render h3 {
+    font-family: 'Merriweather', serif;
+	font-size: 150%;
+    margin-top:12px;
+    margin-bottom: 3px;
+    font-style: regular;
+    color: #008367;
+}
+
+.text_cell_render h4 {    /*Use this for captions*/
+    font-family: 'Merriweather', serif;
+    font-weight: 300; 
+    font-size: 100%;
+    line-height: 120%;
+    text-align: left;
+    width:500px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 80pt;
+    font-style: regular;
+}
+
+.text_cell_render h5 {  /*Use this for small titles*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: regular;
+    font-size: 130%;
+    color: #e31937;
+    font-style: italic;
+    margin-bottom: .5em;
+    margin-top: 1em;
+    display: block;
+}
+
+.text_cell_render h6 { /*use this for copyright note*/
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+    line-height: 100%;
+    color: grey;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+    .CodeMirror{
+            font-family: "Source Code Pro";
+			font-size: 90%;
+    }
+/*    .prompt{
+        display: None;
+    }*/
+	
+    
+    .warning{
+        color: rgb( 240, 20, 20 )
+        }  
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"], 
+                           equationNumbers: { autoNumber: "AMS", useLabelIds: true}
+                           },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+                },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
