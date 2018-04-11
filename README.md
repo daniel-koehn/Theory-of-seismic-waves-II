@@ -2,6 +2,8 @@
 Course material for the lecture "Theory of seismic waves II" (SS 2018)
 at the Institute of Geosciences (Department of Geophysics), Christian-Albrechts-University Kiel
 
+[https://danielkoehnsite.wordpress.com/blog/theory-of-seismic-waves-ii/](Homepage of "Theory of seismic waves II" lecture)
+
 This lecture will be based on the book "Computational Seismology" by Heiner Igel:
 
 [http://www.computational-seismology.org/](http://www.computational-seismology.org/)
