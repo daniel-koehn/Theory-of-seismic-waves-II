@@ -18,6 +18,10 @@ Stress-strain relation for isotropic elastic media and how to compute it using t
 
 Estimation of 3D isotropic acoustic wave equation from the isotropic elastic equations of motion.
 
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/01_Analytical_solutions/4_2D_1D_elastic_acoustic_approx.ipynb): 2D and 1D approximations for elastic and acoustic media
+
+Introducing the 2D elastic PSV/SH and acoustic problem. Getting rid of one dimension and derive the 1D elastic SH and acoustic wave equations.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
