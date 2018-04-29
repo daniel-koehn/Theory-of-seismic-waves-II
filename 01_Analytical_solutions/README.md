@@ -22,6 +22,10 @@ Estimation of 3D isotropic acoustic wave equation from the isotropic elastic equ
 
 Introducing the 2D elastic PSV/SH and acoustic problem. Getting rid of one dimension and derive the 1D elastic SH and acoustic wave equations.
 
+### [Lesson 5](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/01_Analytical_solutions/5_Greens_function_acoustic_1-3D.ipynb): Green's function and seismograms for homogeneous acoustic media
+
+Deriving the Green's functions for homogeneous 3D, 2D and 1D acoustic media. Definition of source wavelets and calculation of seismograms.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
