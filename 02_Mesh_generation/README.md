@@ -18,6 +18,12 @@ Cartesian mesh by Transfinite Interpolation. As an introduction we are folding a
 
 We revisit the sea dike problem from lesson 2 and generate a deformed quad mesh by Transfinite Interpolation adapted to the sea dike topography.
 
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/02_Mesh_generation/4_Tri_mesh_delaunay_yigma_tepe.ipynb): Triangular mesh generation
+
+For another problem with complex topography - the Yigma Tepe tumulus, we compare the TFI quad mesh with triangular meshes created by (constrained) Delaunay triangulation. Some problems related to triangular mesh generation 
+are discussed in more detail. Finally, I recommend some mesh generators.
+
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
