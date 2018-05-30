@@ -21,6 +21,11 @@ We use a more systematic approach to derive high-order and therefore more accura
 we derive a 5-point FD operator to approximate the 2nd derivative in the numerical solution of the 1D acoustic wave equation. Accuracy, runtime and the Courant criterion for the 5-point operator are compared with 
 the 3-point operator.
 
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/04_FD_stability_dispersion/4_general_fd_taylor_operators.ipynb): Generalization of Taylor based FD operators
+
+We derive a general formula to estimate FD operators with arbritary derivative and error order based on Taylor series expansion. Finally, a symbolic approach to compute FD operators for given discrete points using `SymPy`
+is introduced.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
