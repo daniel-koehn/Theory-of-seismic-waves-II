@@ -16,7 +16,7 @@ with a C++ implementation.
 
 ### [Lesson 3](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/3_fdac2d_num_stability_anisotropy.ipynb): Numerical stability, dispersion and anisotropy of the 2D acoustic FD code
 
-We derive the CFL-stability criterion and for the 2D acoustic FD approximation using von Neumann Analysis. The CFL- and grid dispersion criteria are compared by numerical modelling. Furthermore, the problem of numerical 
+We derive the CFL-stability criterion for the 2D acoustic FD approximation using von Neumann analysis. The CFL- and grid dispersion criteria are compared by numerical modelling. Furthermore, the problem of numerical 
 anisotropy is introduced.
 
 ### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/4_fdac2d_heterogeneous.ipynb): 2D acoustic FD modelling for heterogeneous media
