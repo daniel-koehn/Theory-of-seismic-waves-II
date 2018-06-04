@@ -14,6 +14,15 @@ Starting from the 1D acoustic code, we develop a 2D acoustic modelling code and 
 We improve the poor performance of our 2D acoustic modelling code, implemented during the last class, by using JIT compilation from the Numba library and Numpy array operations. The runtime of optimized Python codes are compared 
 with a C++ implementation.
 
+### [Lesson 3](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/3_fdac2d_num_stability_anisotropy.ipynb): Numerical stability, dispersion and anisotropy of the 2D acoustic FD code
+
+We derive the CFL-stability criterion and for the 2D acoustic FD approximation using von Neumann Analysis. The CFL- and grid dispersion criteria are compared by numerical modelling. Furthermore, the problem of numerical 
+anisotropy is introduced.
+
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/4_fdac2d_heterogeneous.ipynb): 2D acoustic FD modelling for heterogeneous media
+
+Always modelling homogeneous media becomes boring, so let's model some problems with simple heterogeneous media.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
