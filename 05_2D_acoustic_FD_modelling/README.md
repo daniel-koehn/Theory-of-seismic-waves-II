@@ -19,9 +19,18 @@ with a C++ implementation.
 We derive the CFL-stability criterion for the 2D acoustic FD approximation using von Neumann analysis. The CFL- and grid dispersion criteria are compared by numerical modelling. Furthermore, the problem of numerical 
 anisotropy is introduced.
 
-### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/4_fdac2d_heterogeneous.ipynb): 2D acoustic FD modelling for heterogeneous media
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/4_fdac2d_absorbing_boundary.ipynb): Simple absorbing boundary for 2D acoustic FD modelling
+
+Realistic FD modelling results for surface seismic acquisition geometries require a further modification of the 2D acoustic FD code. Except for the free surface boundary condition on top of the model, we want to suppress 
+the artifical reflections from the other boundaries. This is accomplished by a simple absorbing Sponge boundary frame. 
+
+### [Lesson 5](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/5_fdac2d_heterogeneous.ipynb): 2D acoustic FD modelling for heterogeneous media
 
 Always modelling homogeneous media becomes boring, so let's model some problems with simple heterogeneous media.
+
+### [Lesson 6](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/6_fdac2d_marmousi_model_exercise.ipynb): Exercise: 2D acoustic FD modelling of the Marmousi-2 model
+
+Time for some "serious" FD modelling with the most widely used benchmark problem - the Marmousi-2 model.
 
 ## Copyright and License
 
