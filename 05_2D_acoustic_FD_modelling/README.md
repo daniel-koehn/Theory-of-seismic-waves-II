@@ -1,7 +1,7 @@
 # 2D acoustic finite-difference modelling
 
 The 1D acoustic wave equation is very useful to introduce the general concept and problems related to FD modelling. However, for realistic modelling and seismic imaging/inversion applications we have to solve at least the 2D 
-acoustic wave equation. In the following lessons we will develop a 2D acoustic modelling code, optimize it's performance and apply it to some benchmark problems. 
+acoustic wave equation. In the following lessons we will develop a 2D acoustic modelling code, optimize it's performance, apply it to some benchmark problems and calculate sensitivity kernels.
 
 ## Lecture 5: 2D acoustic finite-difference modelling
 
@@ -31,6 +31,12 @@ Always modelling homogeneous media becomes boring, so let's model some problems 
 ### [Lesson 6](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/6_fdac2d_marmousi_model_exercise.ipynb): Exercise: 2D acoustic FD modelling of the Marmousi-2 model
 
 Time for some "serious" FD modelling with the most widely used benchmark problem - the Marmousi-2 model.
+
+### [Lesson 7](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/7_fdac2d_sensitivity_kernels.ipynb): Computation of Sensitivity Kernels by 2D acoustic FD modelling
+
+Beside modelling of seismic surveys, our 2D acoustic FD code can be used as the core of a seismic full waveform inversion (FWI) approach based on sensitivity kernels. A very efficient implementation can be realized with 
+frequency domain wavefields, which can be computed "on-the-fly" while FD time-looping via DFT.
+
 
 ## Copyright and License
 
