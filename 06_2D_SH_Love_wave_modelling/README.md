@@ -5,7 +5,7 @@ but is an accurate elastic description of the subsurface.
 
 ## Lecture 6: 2D SH/Love wave finite-difference modelling
 
-### [Lesson 1](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/05_2D_acoustic_FD_modelling/1_2D_SH_FD_staggered.ipynb): Solving the isotropic elastic 2D SH problem by the staggered grid FD method
+### [Lesson 1](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/06_2D_SH_Love_wave_modelling/1_2D_SH_FD_staggered.ipynb): Solving the isotropic elastic 2D SH problem by the staggered grid FD method
 
 I introduce the basics of a 2nd order in time and 2nd order in space staggered grid finite difference approach to solve the 2D elastic SH problem in stress-velocity formulation.
 
