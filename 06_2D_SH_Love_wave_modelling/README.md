@@ -9,6 +9,10 @@ but is an accurate elastic description of the subsurface.
 
 I introduce the basics of a 2nd order in time and 2nd order in space staggered grid finite difference approach to solve the 2D elastic SH problem in stress-velocity formulation.
 
+### [Lesson 2](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/06_2D_SH_Love_wave_modelling/2_From_2D_acoustic_to_SH_FD_modelling_final.ipynb): From 2D acoustic to 2D SH finite difference modelling
+
+Starting from the 2D acoustic code, we develop the 2D SH modelling code using a 2nd order space/time staggered grid finite difference scheme and compare the numerical with an analytical solution for a homogeneous medium
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
