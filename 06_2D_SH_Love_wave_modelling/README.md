@@ -13,6 +13,10 @@ I introduce the basics of a 2nd order in time and 2nd order in space staggered g
 
 Starting from the 2D acoustic code, we develop the 2D SH modelling code using a 2nd order space/time staggered grid finite difference scheme and compare the numerical with an analytical solution for a homogeneous medium
 
+### [Lesson 3](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/06_2D_SH_Love_wave_modelling/3_2D_SH_FD_modelling_quarter_plane_problem.ipynb): 2D SH finite difference modelling - the quarter plane problem
+
+Before modelling the propagation of Love-waves, let's take a look how accurate reflected body waves from the free-surface boundary can be modelled using the quarter plane problem.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
