@@ -15,7 +15,8 @@ Starting from the 2D acoustic code, we develop the 2D SH modelling code using a 
 
 ### [Lesson 3](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/06_2D_SH_Love_wave_modelling/3_2D_SH_FD_modelling_quarter_plane_problem.ipynb): 2D SH finite difference modelling - the quarter plane problem
 
-Before modelling the propagation of Love-waves, let's take a look how accurate reflected body waves from the free-surface boundary can be modelled using the quarter plane problem.
+Before modelling the propagation of Love-waves, let's take a look how accurate reflected body waves from the free-surface boundary can be modelled using the quarter plane problem. This is an important aspect, because one 
+way to understand Love waves is by the interference of SH-body waves in a layered medium.
 
 ## Copyright and License
 
