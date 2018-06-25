@@ -18,6 +18,11 @@ Starting from the 2D acoustic code, we develop the 2D SH modelling code using a 
 Before modelling the propagation of Love-waves, let's take a look how accurate reflected body waves from the free-surface boundary can be modelled using the quarter plane problem. This is an important aspect, because one 
 way to understand Love waves is by the interference of SH-body waves in a layered medium.
 
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/06_2D_SH_Love_wave_modelling/4_2D_SH_FD_modelling_Love_waves.ipynb): 2D SH finite difference modelling - Love wave propagation in the Fossa Carolina canal
+
+After analyzing the accuracy of SH body waves and their free-surface boundary reflections in the previous lessons, we are now able to model SH surface (Love) waves. Instead of using a simplified synthetic sub-surface model, 
+we can rely in this lesson on Full Waveform Inversion (FWI) results of a field dataset acquired across a medieval canal. The reconstructed Vs-model was verified by an archaeological excavation.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
