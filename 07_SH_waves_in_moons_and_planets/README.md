@@ -10,7 +10,7 @@ We use the axisymmetric FD code to model SH waves within the Earth, Moon and Jup
 So far we solved the isotropic elastic equations of motion or their 2D approximations only in Cartesian coordinates. However, to describe global seismic wave propagation, it is required to rewrite the governing equations 
 in spherical coordinates.
 
-### [Lesson 2](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/07_SH_waves_in_moons_and_planets/2_2D_SHaxi_FD_modelling_earth.ipynb): 2D axisymmetric spherical SH finite difference modelling - Earth
+### [Lesson 2](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/blob/master/07_SH_waves_in_moons_and_planets/2_2D_SHaxi_FD_modelling_earth.ipynb): 2D axisymmetric spherical SH finite difference modelling - Earth
 
 After deriving the equations of motion to model 2D axisymmetric SH wave propgation in the previous lesson, we can now implement the derived staggered grid FD scheme and test it for a simple earth model consisting of a 
 liquid core and homogeneous crust/mantle. A second modelling example incorporates the more realistic 1D PREM.
