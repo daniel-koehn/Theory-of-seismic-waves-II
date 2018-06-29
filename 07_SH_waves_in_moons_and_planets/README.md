@@ -1,7 +1,7 @@
 # Global 2D SH/Love wave propagation in planets and moons
 
 To solve global wave propagation in planets and moons, we derive the isotropic elastic equations of motion in spherical coordinates and an axisymmetric SH approximation. 
-We use the axisymmetric FD code to model SH waves within the Earth, Moon, Mars and Jupiter moon Ganymede.
+We use the axisymmetric FD code to model SH waves within the Earth, Moon and Jupiter moon Ganymede.
 
 ## Lecture 7: Global 2D SH/Love wave propagation in planets and moons
 
