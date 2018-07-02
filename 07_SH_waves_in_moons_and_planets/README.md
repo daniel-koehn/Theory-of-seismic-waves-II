@@ -15,6 +15,10 @@ in spherical coordinates.
 After deriving the equations of motion to model 2D axisymmetric SH wave propgation in the previous lesson, we can now implement the derived staggered grid FD scheme and test it for a simple earth model consisting of a 
 liquid core and homogeneous crust/mantle. A second modelling example incorporates the more realistic 1D PREM.
 
+### [Lesson 3](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/blob/master/07_SH_waves_in_moons_and_planets/3_2D_SHaxi_FD_modelling_moon.ipynb): 2D axisymmetric spherical SH finite difference modelling - Moon
+
+In this lesson we compute the axisymmetric SH wave propagation of a deep moonquake event for an elastic lunar model. The resulting wavefields are compared with the modelling results of the earth PREM.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
