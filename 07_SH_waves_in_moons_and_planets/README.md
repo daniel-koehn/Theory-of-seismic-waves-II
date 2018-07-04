@@ -19,6 +19,11 @@ liquid core and homogeneous crust/mantle. A second modelling example incorporate
 
 In this lesson we compute the axisymmetric SH wave propagation of a deep moonquake event for an elastic lunar model. The resulting wavefields are compared with the modelling results of the earth PREM.
 
+### [Lesson 4](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/blob/master/07_SH_waves_in_moons_and_planets/4_2D_SHaxi_FD_modelling_ganymede.ipynb): 2D axisymmetric spherical SH finite difference modelling - Ganymede
+
+Does a habitable liquid ocean exist beneath the ice crust of Jupiters moon Ganymede? By global axisymmetric SH modelling we will investigate if a single geophone on Ganymedes surface would be able to detect a possible ocean.
+
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
