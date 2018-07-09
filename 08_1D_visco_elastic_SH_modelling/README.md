@@ -11,9 +11,9 @@ relaxation function. With the time-domain description of the viscoelastic medium
 
 As introduction, we first distinguish different elastic "damping" effects of seismic waves and non-elastic damping. How can we describe seismic damping and what are the reasons?
 
-### [Lesson 2](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/08_1D_visco_elastic_SH_modelling/2_Equations_of_motion_viscoelasticity.ipynb): Viscoelasticity: Equations of motion for 1D SH problem
+### [Lesson 2](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/08_1D_visco_elastic_SH_modelling/2_viscoelastic_stress_strain.ipynb): Viscoelastic stress-strain relations
 
-We derive the equations of motion for viscoelastic wave propagation and compare different visco-elastic models in the frequency-domain to achieve a constant Q(ω) behaviour. 
+We compare different visco-elastic stress-strain relations in the frequency-domain to achieve a constant Q(ω) behavior. 
 
 ## Copyright and License
 
