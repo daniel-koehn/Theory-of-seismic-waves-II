@@ -39,6 +39,12 @@ Beside the Juypter notebooks, Prof. Barba also produced some short introductory 
 
 ["Engineering Computations" introductory videos](https://www.youtube.com/playlist?list=PLVc-QdfGfSl0vQ0wUlDbqmp0m9hEoIUmF)
 
+For the Jupyter notebook/Python tutorial lecture in TEW2, I compiled the most important aspects in one Jupyter notebook:
+
+[Short Jupyter/Python tutorial for TEW2 lecture](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/00_Intro_Python_Jupyter_notebooks/0_Jupyter_Python_short_intro.ipynb)
+
+However, I highly recommend to work through all introductory Jupyter notebooks:
+
 ## Description of the "Engineering Computations" introductory notebooks
 
 This course assumes no coding experience, so the first three lessons are focused on creating a foundation with Python programming constructs using essentially no mathematics. The fourth lesson introduces the basic data structure in scientific computing: _arrays_. The final lesson is a worked example of linear regression with real data.
