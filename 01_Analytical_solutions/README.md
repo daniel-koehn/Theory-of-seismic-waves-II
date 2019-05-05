@@ -26,6 +26,10 @@ Introducing the 2D elastic PSV/SH and acoustic problem. Getting rid of one dimen
 
 Deriving the Green's functions for homogeneous 3D, 2D and 1D acoustic media. Definition of source wavelets and calculation of seismograms.
 
+### [Lesson 6](http://nbviewer.ipython.org/urls/github.com/daniel-koehn/Theory-of-seismic-waves-II/tree/master/6_Thunderstorm_in_1D-3D_acoustic_media.ipynb): Thunderstorms in 3D and 1D acoustic media
+
+Computation of a realistic analytical seismogram for wave propagation of thunder in a homogeneous 3D and 1D acoustic atmosphere, respectively. This example illustrates the shortcomings of the 1D medium approximation.
+
 ## Copyright and License
 
 (c) 2018 D. Koehn. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). We are happy if you re-use the content in any way!
