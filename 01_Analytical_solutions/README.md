@@ -1,4 +1,4 @@
-# Equations of motion for seismic wave propagation in elastic and acoustic media
+# Equations of motion for seismic wave propagation in linear-elastic and acoustic media
 
 In this module I summarize some parts of the `Theory of elastic waves` lecture, especially the equations of motion to describe seismic wave propagation in linear-elastic media, as well as 1D/2D medium approximations. Furthermore, analytical 
 solutions are derived to validate the accuarcy of seismic modelling codes, implemented during the course of the lecture.
